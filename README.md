@@ -24,3 +24,8 @@ use { "hxpe-dev/meowllow", dir = "nvim" }
 ```lua
 Plug 'hxpe-dev/meowllow/nvim'
 ```
+
+---
+
+Made with ❤️ by [hxpe](https://github.com/hxpe-dev)  
+If you enjoy **Meowllow**, consider starring the [GitHub repository](https://github.com/Meowllow/meowllow)!
