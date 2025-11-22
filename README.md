@@ -5,24 +5,28 @@
 ### Lazy.nvim
 ```lua
 {
-  "hxpe-dev/meowllow",
+  "meowllow/nvim",
   name = "meowllow",
-  dir = "nvim",
   priority = 1000,
   config = function()
-    vim.cmd("colorscheme meowllow-purr")
+    vim.cmd("colorscheme meowllow-purr") -- Set your default theme here.
   end,
 }
 ```
 
-### Packer
+### Mini.deps
 ```lua
-use { "hxpe-dev/meowllow", dir = "nvim" }
+add({ source = "meowllow/nvim", name = "meowllow" })
+```
+
+### Packer.nvim
+```lua
+use { "meowllow/nvim", as = "meowllow"}
 ```
 
 ### Vim-Plug
 ```lua
-Plug 'hxpe-dev/meowllow/nvim'
+Plug 'meowllow/nvim', {'as': 'meowllow' }
 ```
 
 ---
